@@ -1,16 +1,35 @@
-# tdd_clean_architecture
+# Flutter TDD Clean Architecture
 
-A new Flutter project.
+A Flutter project demonstrating Test-Driven Development (TDD) and Clean Architecture principles. This project serves as a practical implementation of software engineering best practices in Flutter development.
 
-## Getting Started
+## 🎯 Project Overview
 
-This project is a starting point for a Flutter application.
+This project was created to demonstrate and improve understanding of:
+- Clean Architecture implementation in Flutter
+- Test-Driven Development (TDD) methodology
+- SOLID principles
+- Unit Testing best practices
+- Domain-Driven Design (DDD)
 
-A few resources to get you started if this is your first Flutter project:
+## 🏗️ Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The project follows Clean Architecture with three main layers:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├── core/ # Core functionality and shared components
+├── features/ # Feature modules
+│ └── authentication/
+│ ├── data/ # Data layer (Repository implementations, Models)
+│ ├── domain/ # Domain layer (Entities, Repository interfaces)
+│ └── presentation/ # Presentation layer (UI, ViewModels)
+└── main.dart
+
+
+## 🔑 Key Features
+
+- Clean Architecture implementation
+- Comprehensive unit testing
+- Authentication feature implementation
+- Separation of concerns
+- Dependency injection
+- Error handling

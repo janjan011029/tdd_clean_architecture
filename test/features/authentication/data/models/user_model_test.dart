@@ -25,6 +25,10 @@ void main() {
 
       //Assert
       expect(results, equals(tModel));
+      expect(results.id, equals('1'));
+      expect(results.avatar, equals('_empty.avatar'));
+      expect(results.createdAt, equals('_empty.createdAt'));
+      expect(results.name, equals('_empty.name'));
     });
   });
 
